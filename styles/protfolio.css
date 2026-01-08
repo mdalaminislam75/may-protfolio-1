@@ -29,12 +29,14 @@ border-radius: 5px ;
 font-size: 15px;
 font-weight: bold ;
 color: #fff8f3;
+cursor: pointer;
 
 }
 
 /* main style */
 header{
-    background-color: #fff8f3; 
+    background-color: #fff8f3;
+    
     padding: 15px 0;
 }
 nav{
@@ -56,4 +58,37 @@ nav .menu a{
     font-size: 20px;
     color: #474747;
     text-decoration: none;
+}
+#banar{
+    border: 1px solid red;
+    margin: 47px 50px 0 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#banar .banar-content{
+    max-width: 585px;
+}
+
+#banar .banar-content h2{
+    font-size: 45px;
+    font-weight: 600px;
+    color: #474747;
+}
+#banar .banar-content h1{
+    font-size: 70px;
+    font-weight: bold;
+    color: chocolate;
+    margin-bottom: 20px ;
+}
+#banar .banar-content p{
+    font-size: 18px ;
+    color: brown;
+    line-height: 30px;
+    margin-bottom: 30px;
+
+}
+#banar .banner-image img{
+    max-width: 585px;
+    vertical-align: middle;
 }
